@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "animalexplorer:blocks/monster_oak_sapling",
+    "particle": "animalexplorer:blocks/monster_oak_sapling"
+  }
+}

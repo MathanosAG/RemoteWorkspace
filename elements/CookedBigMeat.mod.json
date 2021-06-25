@@ -1,0 +1,26 @@
+{
+  "_fv": 21,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_big_meat",
+    "customModelName": "Normal",
+    "name": "Cooked Big Meat",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AnimalExplo"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 15,
+    "saturation": 0.8,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

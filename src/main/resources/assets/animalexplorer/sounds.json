@@ -1,0 +1,20 @@
+{
+  "crimsoncrabsteps": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "animalexplorer:crimsoncrabsteps",
+        "stream": false
+      }
+    ]
+  },
+  "warped_rats_hurt": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "animalexplorer:crimsoncrablive",
+        "stream": false
+      }
+    ]
+  }
+}

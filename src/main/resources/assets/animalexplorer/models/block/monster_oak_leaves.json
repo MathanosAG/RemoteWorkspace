@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "animalexplorer:blocks/monster_oak_leaves",
+    "particle": "animalexplorer:blocks/monster_oak_leaves"
+  }
+}

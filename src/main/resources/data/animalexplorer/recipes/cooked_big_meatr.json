@@ -1,0 +1,12 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "animalexplorer:big_meat"
+  },
+  "result": {
+    "item": "animalexplorer:cooked_big_meat"
+  }
+}

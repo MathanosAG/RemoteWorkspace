@@ -1,0 +1,27 @@
+{
+  "_fv": 21,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "horn_elephant_pickaxe",
+    "customModelName": "Normal",
+    "name": "Horn Elephant Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AnimalExplo"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 4,
+    "efficiency": 20.0,
+    "attackSpeed": 1.5999999999999999,
+    "enchantability": 15,
+    "damageVsEntity": 6.0,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

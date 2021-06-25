@@ -1,0 +1,27 @@
+{
+  "_fv": 21,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "unicorn_sword",
+    "customModelName": "Normal",
+    "name": "Sword Unicorn",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AnimalExplo"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 20.0,
+    "attackSpeed": 1.7,
+    "enchantability": 15,
+    "damageVsEntity": 8.0,
+    "usageCount": 1750,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

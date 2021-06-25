@@ -1,0 +1,36 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:tiger_leather"
+    },
+    "1": {
+      "item": "animalexplorer:tiger_leather"
+    },
+    "2": {
+      "item": "animalexplorer:tiger_leather"
+    },
+    "3": {
+      "item": "animalexplorer:tiger_leather"
+    },
+    "5": {
+      "item": "animalexplorer:tiger_leather"
+    },
+    "6": {
+      "item": "animalexplorer:tiger_leather"
+    },
+    "8": {
+      "item": "animalexplorer:tiger_leather"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:tiger_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 21,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "crab_claw",
+    "customModelName": "Normal",
+    "name": "Crab claw",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AnimalExplo"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 18.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 9.0,
+    "usageCount": 2000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

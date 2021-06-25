@@ -1,0 +1,30 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:horn_elephant"
+    },
+    "1": {
+      "item": "animalexplorer:horn_elephant"
+    },
+    "2": {
+      "item": "animalexplorer:horn_elephant"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:horn_elephant_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:stripped_monster_oak_log"
+    },
+    "1": {
+      "item": "animalexplorer:stripped_monster_oak_log"
+    },
+    "2": {
+      "item": "animalexplorer:stripped_monster_oak_log"
+    },
+    "3": {
+      "item": "animalexplorer:stripped_monster_oak_log"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:stripped_monster_log",
+    "count": 4
+  }
+}

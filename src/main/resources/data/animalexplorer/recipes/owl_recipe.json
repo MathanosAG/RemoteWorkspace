@@ -1,0 +1,29 @@
+{
+  "group": "owl_helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:owl_feather"
+    },
+    "1": {
+      "item": "animalexplorer:owl_feather"
+    },
+    "2": {
+      "item": "animalexplorer:owl_feather"
+    },
+    "3": {
+      "item": "animalexplorer:owl_feather"
+    },
+    "5": {
+      "item": "animalexplorer:owl_feather"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:owl_helmet_helmet",
+    "count": 1
+  }
+}

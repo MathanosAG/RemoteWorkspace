@@ -1,0 +1,46 @@
+{
+  "_fv": 21,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FeatherPenguin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FeatherPenguin"
+      },
+      {
+        "value": "CUSTOM:ScalePenguin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ScalePenguin"
+      },
+      {
+        "value": "CUSTOM:ScalePenguin"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ScalePenguin"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PenguinArmor.boots"
+    },
+    "name": "penguin_boots_recipe",
+    "namespace": "mod"
+  }
+}

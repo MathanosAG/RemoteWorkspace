@@ -1,0 +1,26 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:gecko_scale"
+    },
+    "2": {
+      "item": "animalexplorer:gecko_scale"
+    },
+    "3": {
+      "item": "animalexplorer:gecko_scale"
+    },
+    "5": {
+      "item": "animalexplorer:gecko_scale"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:gecko_boots",
+    "count": 1
+  }
+}

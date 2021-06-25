@@ -1,0 +1,29 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:leather_bull"
+    },
+    "1": {
+      "item": "animalexplorer:leather_bull"
+    },
+    "2": {
+      "item": "animalexplorer:leather_bull"
+    },
+    "3": {
+      "item": "animalexplorer:leather_bull"
+    },
+    "5": {
+      "item": "animalexplorer:leather_bull"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:bull_armor_helmet",
+    "count": 1
+  }
+}

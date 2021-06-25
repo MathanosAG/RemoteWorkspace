@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "animalexplorer:items/shark_tooth_axe"
+  }
+}

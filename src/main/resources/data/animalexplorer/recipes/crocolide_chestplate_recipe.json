@@ -1,0 +1,39 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:scale_crocolide"
+    },
+    "2": {
+      "item": "animalexplorer:scale_crocolide"
+    },
+    "3": {
+      "item": "animalexplorer:scale_crocolide"
+    },
+    "4": {
+      "item": "animalexplorer:scale_crocolide"
+    },
+    "5": {
+      "item": "animalexplorer:scale_crocolide"
+    },
+    "6": {
+      "item": "animalexplorer:scale_crocolide"
+    },
+    "7": {
+      "item": "animalexplorer:scale_crocolide"
+    },
+    "8": {
+      "item": "animalexplorer:scale_crocolide"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:crocolide_chestplate_chestplate",
+    "count": 1
+  }
+}

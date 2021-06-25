@@ -1,0 +1,24 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:horn_unicorn"
+    },
+    "1": {
+      "item": "animalexplorer:horn_unicorn"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:sword_unicorn",
+    "count": 1
+  }
+}

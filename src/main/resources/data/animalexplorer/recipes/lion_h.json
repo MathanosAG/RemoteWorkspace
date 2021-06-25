@@ -1,0 +1,29 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:lion_fur"
+    },
+    "1": {
+      "item": "animalexplorer:lion_fur"
+    },
+    "2": {
+      "item": "animalexplorer:lion_fur"
+    },
+    "3": {
+      "item": "animalexplorer:lion_fur"
+    },
+    "5": {
+      "item": "animalexplorer:lion_fur"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:lion_helmet_helmet",
+    "count": 1
+  }
+}

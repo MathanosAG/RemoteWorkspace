@@ -1,0 +1,39 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:monster_oak_logs"
+    },
+    "2": {
+      "item": "animalexplorer:monster_oak_logs"
+    },
+    "3": {
+      "item": "animalexplorer:monster_oak_logs"
+    },
+    "4": {
+      "item": "animalexplorer:live_wood"
+    },
+    "5": {
+      "item": "animalexplorer:monster_oak_logs"
+    },
+    "6": {
+      "item": "animalexplorer:monster_oak_logs"
+    },
+    "7": {
+      "item": "animalexplorer:monster_oak_logs"
+    },
+    "8": {
+      "item": "animalexplorer:monster_oak_logs"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:wooden_chestplate",
+    "count": 1
+  }
+}

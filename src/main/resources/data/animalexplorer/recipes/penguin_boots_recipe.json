@@ -1,0 +1,33 @@
+{
+  "group": "animalexplorer",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:feather_penguin"
+    },
+    "2": {
+      "item": "animalexplorer:feather_penguin"
+    },
+    "3": {
+      "item": "animalexplorer:scale_penguin"
+    },
+    "5": {
+      "item": "animalexplorer:scale_penguin"
+    },
+    "6": {
+      "item": "animalexplorer:scale_penguin"
+    },
+    "8": {
+      "item": "animalexplorer:scale_penguin"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:penguin_armor_boots",
+    "count": 1
+  }
+}

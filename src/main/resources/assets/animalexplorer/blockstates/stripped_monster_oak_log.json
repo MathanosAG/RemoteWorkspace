@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "animalexplorer:block/stripped_monster_oak_log"
+    },
+    "facing=north": {
+      "model": "animalexplorer:block/stripped_monster_oak_log"
+    },
+    "facing=east": {
+      "model": "animalexplorer:block/stripped_monster_oak_log",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "animalexplorer:block/stripped_monster_oak_log",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "animalexplorer:block/stripped_monster_oak_log",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "animalexplorer:block/stripped_monster_oak_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

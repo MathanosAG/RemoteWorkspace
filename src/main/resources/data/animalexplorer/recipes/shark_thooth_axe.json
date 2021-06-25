@@ -1,0 +1,30 @@
+{
+  "group": "shark_thooth_axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:shark_tooth"
+    },
+    "1": {
+      "item": "animalexplorer:shark_tooth"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "animalexplorer:shark_tooth"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:shark_tooth_axe",
+    "count": 1
+  }
+}

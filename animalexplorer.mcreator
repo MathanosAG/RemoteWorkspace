@@ -1,0 +1,1836 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "WoodGolem",
+      "type": "mob",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_golem"
+    },
+    {
+      "name": "MonsterOakLogOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_log_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonsterOakLog",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_log"
+    },
+    {
+      "name": "StrippedMonsterOakLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_monster_oak_log"
+    },
+    {
+      "name": "MonsterOakLeavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_leaves_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonsterOakLeaves",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_leaves"
+    },
+    {
+      "name": "MonsterOakSaplingOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_sapling_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonsterOakSapling",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_sapling"
+    },
+    {
+      "name": "MonsterOakSaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_sapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonsterOakLogs",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_logs"
+    },
+    {
+      "name": "StrippedMonsterLog",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stripped_monster_log"
+    },
+    {
+      "name": "MonsterOakLogsOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_oak_logs_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonsterBiome",
+      "type": "biome",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_biome"
+    },
+    {
+      "name": "MonsterSpawn",
+      "type": "structure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_spawn"
+    },
+    {
+      "name": "MonsterTrees1",
+      "type": "structure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_trees_1"
+    },
+    {
+      "name": "Wooden",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "Bull",
+      "type": "mob",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bull"
+    },
+    {
+      "name": "LeatherBull",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leather_bull"
+    },
+    {
+      "name": "BullEntityDies",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bull_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BullArmor",
+      "type": "armor",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bull_armor",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Elephant",
+      "type": "mob",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elephant"
+    },
+    {
+      "name": "LiveWood",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "live_wood"
+    },
+    {
+      "name": "HornElephant",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horn_elephant"
+    },
+    {
+      "name": "ElephantEntityDies",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elephant_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigMeat",
+      "type": "food",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_meat"
+    },
+    {
+      "name": "HornElephantPickaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horn_elephant_pickaxe"
+    },
+    {
+      "name": "MonsterPlanksRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_planks_recipe"
+    },
+    {
+      "name": "MonsterLogRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_log_recipe"
+    },
+    {
+      "name": "WoodenChestplate",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_chestplate"
+    },
+    {
+      "name": "BullHelmetR",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bull_helmet_r"
+    },
+    {
+      "name": "HornElephantPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horn_elephant_pickaxe_recipe"
+    },
+    {
+      "name": "CookedBigMeat",
+      "type": "food",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_big_meat"
+    },
+    {
+      "name": "CookedBigMeatRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_big_meat_recipe"
+    },
+    {
+      "name": "CookedBigMeatr",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_big_meatr"
+    },
+    {
+      "name": "Cherries",
+      "type": "food",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherries"
+    },
+    {
+      "name": "BirchLeaves",
+      "type": "loottable",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_leaves"
+    },
+    {
+      "name": "BirchLeavesa",
+      "type": "loottable",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_leavesa"
+    },
+    {
+      "name": "RedPanda",
+      "type": "mob",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_panda"
+    },
+    {
+      "name": "Unicorn",
+      "type": "mob",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unicorn"
+    },
+    {
+      "name": "HornUnicorn",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "horn_unicorn"
+    },
+    {
+      "name": "SwordUnicorn",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_unicorn"
+    },
+    {
+      "name": "SwordUnicornRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sword_unicorn_recipe"
+    },
+    {
+      "name": "Tiger",
+      "type": "mob",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiger"
+    },
+    {
+      "name": "TigerLeather",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiger_leather"
+    },
+    {
+      "name": "TigerArmor",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiger_armor",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "TigerEntityDies",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiger_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TigerLeggings",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tiger_leggings"
+    },
+    {
+      "name": "FeatherPenguin",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "feather_penguin"
+    },
+    {
+      "name": "ScalePenguin",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scale_penguin"
+    },
+    {
+      "name": "PenguinEntityDies",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Penguin",
+      "type": "mob",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin"
+    },
+    {
+      "name": "PenguinArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin_armor",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "PenguinBootsRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin_boots_recipe"
+    },
+    {
+      "name": "Crocolide",
+      "type": "mob",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crocolide"
+    },
+    {
+      "name": "ScaleCrocolide",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scale_crocolide"
+    },
+    {
+      "name": "CrocolideChestplate",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crocolide_chestplate",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "CrocolideChestplateRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crocolide_chestplate_recipe"
+    },
+    {
+      "name": "Lion",
+      "type": "mob",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lion"
+    },
+    {
+      "name": "LionFur",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lion_fur"
+    },
+    {
+      "name": "LionHelmet",
+      "type": "armor",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lion_helmet",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "LionH",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lion_h"
+    },
+    {
+      "name": "Shark",
+      "type": "mob",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shark"
+    },
+    {
+      "name": "SharkTooth",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shark_tooth"
+    },
+    {
+      "name": "SharkToothAxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shark_tooth_axe"
+    },
+    {
+      "name": "SharkEntityDies",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shark_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnimalExplo",
+      "type": "tab",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "animal_explo"
+    },
+    {
+      "name": "Hippopotamus",
+      "type": "mob",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hippopotamus"
+    },
+    {
+      "name": "FurHippopotamus",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fur_hippopotamus"
+    },
+    {
+      "name": "HippopotamusLeggings",
+      "type": "armor",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hippopotamus_leggings",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "HippopotamusEntityDies",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hippopotamus_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeckoGreen",
+      "type": "mob",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_green"
+    },
+    {
+      "name": "GeckoBrown",
+      "type": "mob",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_brown"
+    },
+    {
+      "name": "GeckoSpawnEgg",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_spawn_egg"
+    },
+    {
+      "name": "GeckoSpawnEggRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_spawn_egg_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeckoYellow",
+      "type": "mob",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_yellow"
+    },
+    {
+      "name": "GeckoRed",
+      "type": "mob",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_red"
+    },
+    {
+      "name": "DeadAnimalCute",
+      "type": "particle",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_animal_cute"
+    },
+    {
+      "name": "GeckoGreenEntityDies",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_green_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GeckoScale",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_scale"
+    },
+    {
+      "name": "GeckoBootsTickEvent",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gecko",
+      "type": "armor",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "GeckoBoots",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_boots"
+    },
+    {
+      "name": "Geckogreenlt",
+      "type": "loottable",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "geckogreenlt"
+    },
+    {
+      "name": "Geckobrownlt",
+      "type": "loottable",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "geckobrownlt"
+    },
+    {
+      "name": "GeckoredLt",
+      "type": "loottable",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "geckored_lt"
+    },
+    {
+      "name": "GeckoYellowLt",
+      "type": "loottable",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gecko_yellow_lt"
+    },
+    {
+      "name": "AppleWithWoorm",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_with_woorm"
+    },
+    {
+      "name": "AppleWithWoormFoodEaten",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_with_woorm_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bird",
+      "type": "mob",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bird"
+    },
+    {
+      "name": "Worm",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "worm"
+    },
+    {
+      "name": "Snake",
+      "type": "mob",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "snake"
+    },
+    {
+      "name": "CrimsonCrab",
+      "type": "mob",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_crab"
+    },
+    {
+      "name": "WarpedRat",
+      "type": "mob",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_rat"
+    },
+    {
+      "name": "MonsterWarpedRat",
+      "type": "mob",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_warped_rat"
+    },
+    {
+      "name": "Crabclaw",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crabclaw"
+    },
+    {
+      "name": "MonsterCrimsonCrabEntityDies",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_crimson_crab_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonsterCrimsonCrab",
+      "type": "mob",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "monster_crimson_crab"
+    },
+    {
+      "name": "Rhino",
+      "type": "mob",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rhino"
+    },
+    {
+      "name": "DragonMonder",
+      "type": "mob",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_monder"
+    },
+    {
+      "name": "LionEntityDies",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lion_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeggingsHippotamus",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leggings_hippotamus"
+    },
+    {
+      "name": "SharkThoothAxe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shark_thooth_axe"
+    },
+    {
+      "name": "Narwhal",
+      "type": "mob",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "narwhal"
+    },
+    {
+      "name": "BullHelmet",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bull_helmet"
+    },
+    {
+      "name": "OwlArtic",
+      "type": "mob",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "owl_artic"
+    },
+    {
+      "name": "Hyena",
+      "type": "mob",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyena"
+    },
+    {
+      "name": "Stringray",
+      "type": "mob",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stringray"
+    },
+    {
+      "name": "OwlHelmet",
+      "type": "armor",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "owl_helmet",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "OwlFeather",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "owl_feather"
+    },
+    {
+      "name": "OwlRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "owl_recipe"
+    },
+    {
+      "name": "HyenaBoots",
+      "type": "armor",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyena_boots",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "FurHyena",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fur_hyena"
+    },
+    {
+      "name": "HyenaBootsr",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hyena_bootsr"
+    },
+    {
+      "name": "OwlHelmetHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "owl_helmet_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Platypus",
+      "type": "mob",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "platypus"
+    },
+    {
+      "name": "FishLantern",
+      "type": "mob",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fish_lantern"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "crimsoncrabsteps",
+      "files": [
+        "crimsoncrabsteps"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "warped_rats_hurt",
+      "files": [
+        "crimsoncrablive"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.animalexplorer.lion_helmet_leggings": "Lion Helmet Leggings",
+      "block.chiselfake.stripped_monster_oak_log": "Stripped monster oak log",
+      "entity.animalexplorer.tiger": "Tiger",
+      "block.animalexplorer.monster_oak_sapling": "Monster Oak Sapling",
+      "item.animalexplorer.elephant_spawn_egg": "Elephant Spawn Egg",
+      "item.animalexplorer.shark_spawn_egg": "Shark Spawn Egg",
+      "item.animalexplorer.shark_tooth": "Shark Tooth",
+      "item.animalexplorer.bull_armor_boots": "Bull Armor Boots",
+      "item.animalexplorer.bull_armor_leggings": "Bull Armor Leggings",
+      "block.chiselfake.stripped_monster_log": "Monster Oak Log",
+      "entity.animalexplorer.hyena": "Hyena",
+      "item.animalexplorer.platypus_spawn_egg": "Platypus Spawn Egg",
+      "entity.animalexplorer.platypus": "Platypus",
+      "item.chiselfake.live_wood": "Live Wood",
+      "item.animalexplorer.gecko_red_spawn_egg": "Gecko Spawn Egg",
+      "item.animalexplorer.hippopotamus_leggings_boots": "Hippopotamus Leggings Boots",
+      "item.animalexplorer.gecko_boots": "Gecko Boots",
+      "item.chiselfake.tiger_spawn_egg": "Tiger Spawn Egg",
+      "entity.animalexplorer.bull": "Bull",
+      "item.animalexplorer.narwhal_spawn_egg": "Narwhal Spawn Egg",
+      "item.animalexplorer.hyena_boots_leggings": "Hyena Boots Leggings",
+      "subtitles.warped_rats_hurt": "",
+      "entity.animalexplorer.wood_golem": "Wood Golem",
+      "item.animalexplorer.wood_golem_spawn_egg": "Wood Golem Spawn Egg",
+      "block.chiselfake.monster_oak_sapling": "Monster Oak Sapling",
+      "item.animalexplorer.hippopotamus_leggings_leggings": "Hippopotamus Leggings ",
+      "item.chiselfake.wooden_leggings": "Wooden Leggings",
+      "item.animalexplorer.wooden_leggings": "Wooden Leggings",
+      "item.animalexplorer.bird_spawn_egg": "Bird Spawn Egg",
+      "item.chiselfake.bull_armor_leggings": "Bull Armor Leggings",
+      "block.chiselfake.monster_oak_log": "Monster Oak Log",
+      "item.animalexplorer.leather_bull": "Study Leather",
+      "item.animalexplorer.sword_unicorn": "Sword Unicorn",
+      "entity.animalexplorer.penguin": "Penguin",
+      "item.animalexplorer.fur_hippopotamus": "Fur Hippopotamus",
+      "subtitles.crimsoncrabsteps": "",
+      "entity.animalexplorer.stringray": "Stringray",
+      "item.animalexplorer.gecko_yellow_spawn_egg": "Gecko Spawn Egg",
+      "entity.animalexplorer.lion": "Lion",
+      "entity.animalexplorer.unicorn": "Unicorn",
+      "item.animalexplorer.feather_penguin": "Feather Penguin",
+      "item.animalexplorer.scale_penguin": "Scale Penguin",
+      "item.animalexplorer.bull_spawn_egg": "Bull Spawn Egg",
+      "item.animalexplorer.horn_unicorn": "Horn Unicorn",
+      "item.animalexplorer.tiger_armor_chestplate": "Tiger Armor Body",
+      "item.animalexplorer.apple_with_woorm": "Apple With Woorm",
+      "item.animalexplorer.monster_warped_rat_spawn_egg": "Monster Warped Rat Spawn Egg",
+      "item.animalexplorer.penguin_spawn_egg": "Penguin Spawn Egg",
+      "item.animalexplorer.hyena_spawn_egg": "Hyena Spawn Egg",
+      "item.animalexplorer.stringray_spawn_egg": "Stringray Spawn Egg",
+      "item.animalexplorer.hippopotamus_leggings_chestplate": "Hippopotamus Leggings Body",
+      "item.animalexplorer.owl_helmet_chestplate": "Owl Helmet Body",
+      "block.chiselfake.monster_oak_leaves": "Monster Oak Leaves",
+      "item.animalexplorer.lion_helmet_helmet": "Lion Helmet",
+      "subtitles.warped_rats_live": "",
+      "item.chiselfake.wooden_boots": "Wooden Boots",
+      "item.animalexplorer.penguin_armor_chestplate": "Penguin Armor Body",
+      "item.animalexplorer.penguin_armor_leggings": "Penguin Armor Leggings",
+      "entity.animalexplorer.bird": "Bird",
+      "item.chiselfake.bull_armor_chestplate": "Bull Armor Body",
+      "block.animalexplorer.monster_oak_leaves": "Monster Oak Leaves",
+      "item.animalexplorer.lion_spawn_egg": "Lion Spawn Egg",
+      "item.animalexplorer.dragon_monder_spawn_egg": "Dragon Monder Spawn Egg",
+      "entity.animalexplorer.hippopotamus": "Hippopotamus",
+      "item.animalexplorer.hyena_boots_boots": "Hyena Boots",
+      "item.animalexplorer.fur_hyena": "Fur Hyena",
+      "block.animalexplorer.stripped_monster_oak_log": "Monster Oak Log",
+      "item.animalexplorer.red_panda_spawn_egg": "Red Panda Spawn Egg",
+      "block.chiselfake.monster_oak_logs": "Monster Oak Log",
+      "item.animalexplorer.worm": "Worm",
+      "item.animalexplorer.owl_helmet_boots": "Owl Helmet Boots",
+      "entity.animalexplorer.gecko_brown": "Gecko",
+      "item.animalexplorer.penguin_armor_boots": "Penguin Boots",
+      "item.animalexplorer.owl_feather": "Owl Feather",
+      "item.animalexplorer.hyena_boots_helmet": "Hyena Boots Helmet",
+      "item.chiselfake.unicorn_spawn_egg": "Unicorn Spawn Egg",
+      "item.animalexplorer.lion_fur": "Lion Fur",
+      "block.animalexplorer.stripped_monster_log": "Monster Oak Log",
+      "item.animalexplorer.hyena_boots_chestplate": "Hyena Boots Body",
+      "item.animalexplorer.crocolide_chestplate_chestplate": "Crocolide Chestplate",
+      "item.animalexplorer.owl_artic_spawn_egg": "Owl Artic Spawn Egg",
+      "entity.chiselfake.bull": "Bull",
+      "item.animalexplorer.hippopotamus_spawn_egg": "Hippopotamus Spawn Egg",
+      "entity.animalexplorer.fish_lantern": "Fish Lantern",
+      "item.animalexplorer.snake_spawn_egg": "Snake Spawn Egg",
+      "item.chiselfake.bull_spawn_egg": "Bull Spawn Egg",
+      "item.chiselfake.bull_armor_helmet": "Bull Helmet",
+      "entity.animalexplorer.red_panda": "Red Panda",
+      "entity.animalexplorer.gecko_green": "Gecko",
+      "item.chiselfake.cooked_big_meat": "Cooked Big Meat",
+      "item.animalexplorer.crabclaw": "Crab claw",
+      "entity.animalexplorer.narwhal": "Narwhal",
+      "entity.animalexplorer.owl_artic": "Owl Artic",
+      "item.animalexplorer.owl_helmet_helmet": "Owl Helmet ",
+      "item.animalexplorer.owl_helmet_leggings": "Owl Helmet Leggings",
+      "item.animalexplorer.wooden_boots": "Wooden Boots",
+      "item.animalexplorer.hippopotamus_leggings_helmet": "Hippopotamus Leggings Helmet",
+      "item.animalexplorer.crocolide_spawn_egg": "Crocodile Spawn Egg",
+      "entity.chiselfake.elephant": "Elephant",
+      "item.animalexplorer.wooden_chestplate": "Wooden Chestplate",
+      "item.animalexplorer.gecko_brown_spawn_egg": "Gecko Spawn Egg",
+      "item.animalexplorer.tiger_armor_leggings": "Tiger Leggings",
+      "item.chiselfake.elephant_spawn_egg": "Elephant Spawn Egg",
+      "entity.animalexplorer.elephant": "Elephant",
+      "item.chiselfake.wood_golem_spawn_egg": "Wood Golem Spawn Egg",
+      "entity.animalexplorer.snake": "Snake",
+      "item.animalexplorer.penguin_armor_helmet": "Penguin Armor Helmet",
+      "item.animalexplorer.wooden_helmet": "Wooden Helmet",
+      "item.animalexplorer.crimson_crab_spawn_egg": "Crimson Crab Spawn Egg",
+      "item.chiselfake.big_meat": "Big Meat",
+      "item.animalexplorer.cooked_big_meat": "Cooked Big Meat",
+      "item.animalexplorer.horn_elephant_pickaxe": "Horn Elephant Pickaxe",
+      "item.animalexplorer.gecko_leggings": "Gecko Leggings",
+      "item.animalexplorer.monster_crimson_crab_spawn_egg": "Monster Crimson Crab Spawn Egg",
+      "item.animalexplorer.crocolide_chestplate_helmet": "Wooden Helmet",
+      "item.chiselfake.red_panda_spawn_egg": "Red Panda Spawn Egg",
+      "item.animalexplorer.tiger_armor_helmet": "Tiger Armor Helmet",
+      "biome.animalexplorer.monster_biome": "Monster Biome",
+      "entity.animalexplorer.warped_rat": "Warped Rat",
+      "entity.chiselfake.unicorn": "Unicorn",
+      "item.chiselfake.leather_bull": "Leather lasted",
+      "subtitles.crimson_crablive": "",
+      "item.animalexplorer.live_wood": "Live Wood",
+      "item.animalexplorer.gecko_scale": "Gecko Scale",
+      "item.animalexplorer.shark_tooth_axe": "Shark Tooth Axe",
+      "entity.chiselfake.red_panda": "Red Panda",
+      "item.animalexplorer.gecko_spawn_egg": "Gecko Spawn Egg",
+      "item.chiselfake.sword_unicorn": "Sword Unicorn",
+      "item.animalexplorer.tiger_spawn_egg": "Tiger Spawn Egg",
+      "block.animalexplorer.monster_oak_logs": "Monster Oak Log",
+      "item.chiselfake.wooden_helmet": "Wooden Helmet",
+      "item.animalexplorer.crocolide_chestplate_leggings": "Wooden Leggings",
+      "item.animalexplorer.scale_crocolide": "Scale Crocolide",
+      "entity.chiselfake.tiger": "Tiger",
+      "item.animalexplorer.unicorn_spawn_egg": "Unicorn Spawn Egg",
+      "item.animalexplorer.rhino_spawn_egg": "Rhino Spawn Egg",
+      "item.animalexplorer.fish_lantern_spawn_egg": "Fish Lantern Spawn Egg",
+      "item.animalexplorer.warped_rat_spawn_egg": "Warped Rat Spawn Egg",
+      "entity.animalexplorer.dragon_monder": "Dragon Monder",
+      "item.chiselfake.horn_elephant_pickaxe": "Horn Elephant Pickaxe",
+      "itemGroup.tabanimal_explo": "Animal Explorer",
+      "item.chiselfake.bull_armor_boots": "Bull Armor Boots",
+      "item.chiselfake.horn_unicorn": "Horn Unicorn",
+      "item.animalexplorer.big_meat": "Big Meat",
+      "entity.animalexplorer.gecko_red": "Gecko",
+      "item.animalexplorer.crocolide_chestplate_boots": "Wooden Boots",
+      "item.animalexplorer.tiger_armor_boots": "Tiger Armor Boots",
+      "item.animalexplorer.lion_helmet_chestplate": "Lion Helmet Body",
+      "item.chiselfake.apple_with_worm": "Apple With Worm",
+      "entity.animalexplorer.crimson_crab": "Crimson Crab",
+      "entity.animalexplorer.monster_warped_rat": "Monster Warped Rat",
+      "entity.animalexplorer.gecko_yellow": "Gecko",
+      "item.animalexplorer.horn_elephant": "Horn Elephant",
+      "biome.chiselfake.monster_biome": "Monster Biome",
+      "block.animalexplorer.monster_oak_log": "Monster Oak Log",
+      "item.animalexplorer.tiger_leather": "Tiger Leather",
+      "item.animalexplorer.lion_helmet_boots": "Lion Helmet Boots",
+      "item.animalexplorer.gecko_helmet": "Gecko Helmet",
+      "entity.animalexplorer.crocolide": "Crocodile",
+      "entity.animalexplorer.monster_crimson_crab": "Monster Crimson Crab",
+      "item.animalexplorer.cherries": "Cherries",
+      "entity.animalexplorer.shark": "Shark",
+      "entity.animalexplorer.rhino": "Rhino",
+      "item.chiselfake.horn_elephant": "Horn Elephant",
+      "item.animalexplorer.bull_armor_helmet": "Study Leather Helmet",
+      "item.animalexplorer.gecko_chestplate": "Gecko Body",
+      "entity.chiselfake.wood_golem": "Wood Golem",
+      "item.chiselfake.wooden_chestplate": "Wooden Chestplate",
+      "item.animalexplorer.gecko_green_spawn_egg": "Gecko Spawn Egg",
+      "item.chiselfake.cherries": "Cherries",
+      "item.animalexplorer.bull_armor_chestplate": "Bull Armor Body"
+    },
+    "es_es": {
+      "item.animalexplorer.lion_helmet_leggings": "Pantalon de Lion",
+      "block.chiselfake.stripped_monster_oak_log": "Tronco de roble mounstrozo sin corteza",
+      "entity.animalexplorer.tiger": "Tigre",
+      "block.animalexplorer.monster_oak_sapling": "Brote de Roble mounstrozo",
+      "item.animalexplorer.elephant_spawn_egg": "Generar elefante",
+      "item.animalexplorer.shark_spawn_egg": "Generar tiburon",
+      "item.animalexplorer.shark_tooth": "Shark Tooth",
+      "item.animalexplorer.bull_armor_boots": "Bull Armor Boots",
+      "item.animalexplorer.bull_armor_leggings": "Bull Armor Leggings",
+      "block.chiselfake.stripped_monster_log": "Monster Oak Log",
+      "entity.animalexplorer.hyena": "Hyena",
+      "item.animalexplorer.platypus_spawn_egg": "Platypus Spawn Egg",
+      "entity.animalexplorer.platypus": "Platypus",
+      "item.chiselfake.live_wood": "Live Wood",
+      "item.animalexplorer.gecko_red_spawn_egg": "Gecko Spawn Egg",
+      "item.animalexplorer.hippopotamus_leggings_boots": "Hippopotamus Leggings Boots",
+      "item.animalexplorer.gecko_boots": "Gecko Boots",
+      "item.chiselfake.tiger_spawn_egg": "Tiger Spawn Egg",
+      "entity.animalexplorer.bull": "Bull",
+      "item.animalexplorer.narwhal_spawn_egg": "Narwhal Spawn Egg",
+      "item.animalexplorer.hyena_boots_leggings": "Hyena Boots Leggings",
+      "subtitles.warped_rats_hurt": "",
+      "entity.animalexplorer.wood_golem": "Wood Golem",
+      "item.animalexplorer.wood_golem_spawn_egg": "Wood Golem Spawn Egg",
+      "block.chiselfake.monster_oak_sapling": "Monster Oak Sapling",
+      "item.animalexplorer.hippopotamus_leggings_leggings": "Hippopotamus Leggings ",
+      "item.chiselfake.wooden_leggings": "Wooden Leggings",
+      "item.animalexplorer.wooden_leggings": "Wooden Leggings",
+      "item.animalexplorer.bird_spawn_egg": "Bird Spawn Egg",
+      "item.chiselfake.bull_armor_leggings": "Bull Armor Leggings",
+      "block.chiselfake.monster_oak_log": "Monster Oak Log",
+      "item.animalexplorer.leather_bull": "Study Leather",
+      "item.animalexplorer.sword_unicorn": "Sword Unicorn",
+      "entity.animalexplorer.penguin": "Penguin",
+      "item.animalexplorer.fur_hippopotamus": "Fur Hippopotamus",
+      "subtitles.crimsoncrabsteps": "",
+      "entity.animalexplorer.stringray": "Stringray",
+      "item.animalexplorer.gecko_yellow_spawn_egg": "Gecko Spawn Egg",
+      "entity.animalexplorer.lion": "Lion",
+      "entity.animalexplorer.unicorn": "Unicorn",
+      "item.animalexplorer.feather_penguin": "Feather Penguin",
+      "item.animalexplorer.scale_penguin": "Scale Penguin",
+      "item.animalexplorer.bull_spawn_egg": "Bull Spawn Egg",
+      "item.animalexplorer.horn_unicorn": "Horn Unicorn",
+      "item.animalexplorer.tiger_armor_chestplate": "Tiger Armor Body",
+      "item.animalexplorer.apple_with_woorm": "Apple With Woorm",
+      "item.animalexplorer.monster_warped_rat_spawn_egg": "Monster Warped Rat Spawn Egg",
+      "item.animalexplorer.penguin_spawn_egg": "Penguin Spawn Egg",
+      "item.animalexplorer.hyena_spawn_egg": "Hyena Spawn Egg",
+      "item.animalexplorer.stringray_spawn_egg": "Stringray Spawn Egg",
+      "item.animalexplorer.hippopotamus_leggings_chestplate": "Hippopotamus Leggings Body",
+      "item.animalexplorer.owl_helmet_chestplate": "Owl Helmet Body",
+      "block.chiselfake.monster_oak_leaves": "Monster Oak Leaves",
+      "item.animalexplorer.lion_helmet_helmet": "Lion Helmet",
+      "subtitles.warped_rats_live": "",
+      "item.chiselfake.wooden_boots": "Wooden Boots",
+      "item.animalexplorer.penguin_armor_chestplate": "Penguin Armor Body",
+      "item.animalexplorer.penguin_armor_leggings": "Penguin Armor Leggings",
+      "entity.animalexplorer.bird": "Bird",
+      "item.chiselfake.bull_armor_chestplate": "Bull Armor Body",
+      "block.animalexplorer.monster_oak_leaves": "Monster Oak Leaves",
+      "item.animalexplorer.lion_spawn_egg": "Lion Spawn Egg",
+      "item.animalexplorer.dragon_monder_spawn_egg": "Dragon Monder Spawn Egg",
+      "entity.animalexplorer.hippopotamus": "Hippopotamus",
+      "item.animalexplorer.hyena_boots_boots": "Hyena Boots",
+      "item.animalexplorer.fur_hyena": "Fur Hyena",
+      "block.animalexplorer.stripped_monster_oak_log": "Monster Oak Log",
+      "item.animalexplorer.red_panda_spawn_egg": "Red Panda Spawn Egg",
+      "block.chiselfake.monster_oak_logs": "Monster Oak Log",
+      "item.animalexplorer.worm": "Worm",
+      "item.animalexplorer.owl_helmet_boots": "Owl Helmet Boots",
+      "entity.animalexplorer.gecko_brown": "Gecko",
+      "item.animalexplorer.penguin_armor_boots": "Penguin Boots",
+      "item.animalexplorer.owl_feather": "Owl Feather",
+      "item.animalexplorer.hyena_boots_helmet": "Hyena Boots Helmet",
+      "item.chiselfake.unicorn_spawn_egg": "Unicorn Spawn Egg",
+      "item.animalexplorer.lion_fur": "Lion Fur",
+      "block.animalexplorer.stripped_monster_log": "Monster Oak Log",
+      "item.animalexplorer.hyena_boots_chestplate": "Hyena Boots Body",
+      "item.animalexplorer.crocolide_chestplate_chestplate": "Crocolide Chestplate",
+      "item.animalexplorer.owl_artic_spawn_egg": "Owl Artic Spawn Egg",
+      "entity.chiselfake.bull": "Bull",
+      "item.animalexplorer.hippopotamus_spawn_egg": "Hippopotamus Spawn Egg",
+      "entity.animalexplorer.fish_lantern": "Fish Lantern",
+      "item.animalexplorer.snake_spawn_egg": "Snake Spawn Egg",
+      "item.chiselfake.bull_spawn_egg": "Bull Spawn Egg",
+      "item.chiselfake.bull_armor_helmet": "Bull Helmet",
+      "entity.animalexplorer.red_panda": "Red Panda",
+      "entity.animalexplorer.gecko_green": "Gecko",
+      "item.chiselfake.cooked_big_meat": "Cooked Big Meat",
+      "item.animalexplorer.crabclaw": "Crab claw",
+      "entity.animalexplorer.narwhal": "Narwhal",
+      "entity.animalexplorer.owl_artic": "Owl Artic",
+      "item.animalexplorer.owl_helmet_helmet": "Owl Helmet ",
+      "item.animalexplorer.owl_helmet_leggings": "Owl Helmet Leggings",
+      "item.animalexplorer.wooden_boots": "Wooden Boots",
+      "item.animalexplorer.hippopotamus_leggings_helmet": "Hippopotamus Leggings Helmet",
+      "item.animalexplorer.crocolide_spawn_egg": "Crocodile Spawn Egg",
+      "entity.chiselfake.elephant": "Elephant",
+      "item.animalexplorer.wooden_chestplate": "Wooden Chestplate",
+      "item.animalexplorer.gecko_brown_spawn_egg": "Gecko Spawn Egg",
+      "item.animalexplorer.tiger_armor_leggings": "Tiger Leggings",
+      "item.chiselfake.elephant_spawn_egg": "Elephant Spawn Egg",
+      "entity.animalexplorer.elephant": "Elephant",
+      "item.chiselfake.wood_golem_spawn_egg": "Wood Golem Spawn Egg",
+      "entity.animalexplorer.snake": "Snake",
+      "item.animalexplorer.penguin_armor_helmet": "Penguin Armor Helmet",
+      "item.animalexplorer.wooden_helmet": "Wooden Helmet",
+      "item.animalexplorer.crimson_crab_spawn_egg": "Crimson Crab Spawn Egg",
+      "item.chiselfake.big_meat": "Big Meat",
+      "item.animalexplorer.cooked_big_meat": "Cooked Big Meat",
+      "item.animalexplorer.horn_elephant_pickaxe": "Horn Elephant Pickaxe",
+      "item.animalexplorer.gecko_leggings": "Gecko Leggings",
+      "item.animalexplorer.monster_crimson_crab_spawn_egg": "Monster Crimson Crab Spawn Egg",
+      "item.animalexplorer.crocolide_chestplate_helmet": "Wooden Helmet",
+      "item.chiselfake.red_panda_spawn_egg": "Red Panda Spawn Egg",
+      "item.animalexplorer.tiger_armor_helmet": "Tiger Armor Helmet",
+      "biome.animalexplorer.monster_biome": "Monster Biome",
+      "entity.animalexplorer.warped_rat": "Warped Rat",
+      "entity.chiselfake.unicorn": "Unicorn",
+      "item.chiselfake.leather_bull": "Leather lasted",
+      "subtitles.crimson_crablive": "",
+      "item.animalexplorer.live_wood": "Live Wood",
+      "item.animalexplorer.gecko_scale": "Gecko Scale",
+      "item.animalexplorer.shark_tooth_axe": "Shark Tooth Axe",
+      "entity.chiselfake.red_panda": "Red Panda",
+      "item.animalexplorer.gecko_spawn_egg": "Gecko Spawn Egg",
+      "item.chiselfake.sword_unicorn": "Sword Unicorn",
+      "item.animalexplorer.tiger_spawn_egg": "Tiger Spawn Egg",
+      "block.animalexplorer.monster_oak_logs": "Monster Oak Log",
+      "item.chiselfake.wooden_helmet": "Wooden Helmet",
+      "item.animalexplorer.crocolide_chestplate_leggings": "Wooden Leggings",
+      "item.animalexplorer.scale_crocolide": "Scale Crocolide",
+      "entity.chiselfake.tiger": "Tiger",
+      "item.animalexplorer.unicorn_spawn_egg": "Unicorn Spawn Egg",
+      "item.animalexplorer.rhino_spawn_egg": "Rhino Spawn Egg",
+      "item.animalexplorer.fish_lantern_spawn_egg": "Fish Lantern Spawn Egg",
+      "item.animalexplorer.warped_rat_spawn_egg": "Warped Rat Spawn Egg",
+      "entity.animalexplorer.dragon_monder": "Dragon Monder",
+      "item.chiselfake.horn_elephant_pickaxe": "Horn Elephant Pickaxe",
+      "itemGroup.tabanimal_explo": "Animal Explorer",
+      "item.chiselfake.bull_armor_boots": "Bull Armor Boots",
+      "item.chiselfake.horn_unicorn": "Horn Unicorn",
+      "item.animalexplorer.big_meat": "Big Meat",
+      "entity.animalexplorer.gecko_red": "Gecko",
+      "item.animalexplorer.crocolide_chestplate_boots": "Wooden Boots",
+      "item.animalexplorer.tiger_armor_boots": "Tiger Armor Boots",
+      "item.animalexplorer.lion_helmet_chestplate": "Lion Helmet Body",
+      "item.chiselfake.apple_with_worm": "Apple With Worm",
+      "entity.animalexplorer.crimson_crab": "Crimson Crab",
+      "entity.animalexplorer.monster_warped_rat": "Monster Warped Rat",
+      "entity.animalexplorer.gecko_yellow": "Gecko",
+      "item.animalexplorer.horn_elephant": "Horn Elephant",
+      "biome.chiselfake.monster_biome": "Monster Biome",
+      "block.animalexplorer.monster_oak_log": "Monster Oak Log",
+      "item.animalexplorer.tiger_leather": "Tiger Leather",
+      "item.animalexplorer.lion_helmet_boots": "Lion Helmet Boots",
+      "item.animalexplorer.gecko_helmet": "Gecko Helmet",
+      "entity.animalexplorer.crocolide": "Crocodile",
+      "entity.animalexplorer.monster_crimson_crab": "Monster Crimson Crab",
+      "item.animalexplorer.cherries": "Cherries",
+      "entity.animalexplorer.shark": "Shark",
+      "entity.animalexplorer.rhino": "Rhino",
+      "item.chiselfake.horn_elephant": "Horn Elephant",
+      "item.animalexplorer.bull_armor_helmet": "Study Leather Helmet",
+      "item.animalexplorer.gecko_chestplate": "Gecko Body",
+      "entity.chiselfake.wood_golem": "Wood Golem",
+      "item.chiselfake.wooden_chestplate": "Wooden Chestplate",
+      "item.animalexplorer.gecko_green_spawn_egg": "Gecko Spawn Egg",
+      "item.chiselfake.cherries": "Cherries",
+      "item.animalexplorer.bull_armor_chestplate": "Bull Armor Body"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "animalexplorer",
+    "modName": "AnimalExplorer Rebith",
+    "version": "0.0.0.2",
+    "author": "Mathanos",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/animal-explorer-rebith",
+    "license": "Not specified",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "animalexplorerlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.animalexplorer",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100223417
+}

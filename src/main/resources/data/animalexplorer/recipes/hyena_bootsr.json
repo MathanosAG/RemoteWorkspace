@@ -1,0 +1,26 @@
+{
+  "group": "hyena",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "animalexplorer:fur_hyena"
+    },
+    "2": {
+      "item": "animalexplorer:fur_hyena"
+    },
+    "3": {
+      "item": "animalexplorer:fur_hyena"
+    },
+    "5": {
+      "item": "animalexplorer:fur_hyena"
+    }
+  },
+  "result": {
+    "item": "animalexplorer:hyena_boots_boots",
+    "count": 1
+  }
+}
